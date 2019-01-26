@@ -1,0 +1,302 @@
+@media (max-width: 992px) {
+	
+	.separatop {
+		display: none;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+	header {
+		.content {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+		.contacts {
+			display: none;
+		}
+		nav.menu {
+			display: none;
+			position: absolute;
+			top: 100%;
+			left: 0;
+			right: 0;
+			padding: 0;
+			border-top: 1px solid $back02 - 30;
+			border-bottom: 1px solid $back02 - 30;
+
+			background: $back01;
+			text-align: right;
+
+			a {
+				display: block;
+				padding: 20px;
+				margin-right: 0;
+				padding-right: 30px;
+				font-size: 18px;
+				border-bottom: 1px solid $back02 - 5;
+
+				&:before {
+					display: none;
+				}
+
+				&:last-child {
+					border-bottom: none;
+				}
+			}
+		}
+		#btn-menu {
+			display: flex;
+		}
+	}
+
+	#banner {
+
+		.content {
+			display: block;
+			padding: 15px;
+
+			.banner-image {
+				/*display: none;*/
+				width: 100%;
+
+				img {
+					height: 200px;
+				}
+			}
+
+			.banner-text {
+				width: 100%;
+				text-align: center;
+				margin-bottom: 15px;
+
+				.bt-title {
+					font-size: 50px;
+					margin: 15px 0;
+				}
+
+				.bt-lable {
+					text-align: center;
+					padding: 0;
+					margin-bottom: 15px;
+				}
+			}
+
+			.button {
+				padding: 15px 30px;
+			}
+		}
+	}
+
+	#worth {
+		.content {
+			display: block;
+			padding-bottom: 15px;
+
+			.w-col {
+				width: 100% !important;
+				margin-bottom: 15px;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+
+				.wc-img {
+					margin: 0;
+					margin-right: 20px;
+
+					img {
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+
+	#catalog {
+		.content {
+			padding: 15px;
+			padding-top: 25px;
+
+			.catalog-btn-group {
+				display: block;
+				margin-bottom: 15px;
+
+				.button {
+					display: block;
+					width: 100%;
+					text-align: center;
+					margin: 0;
+					margin-bottom: 10px;
+				}
+			}
+
+			.catalog-content {
+				.cc-item {
+					width: 100%;
+				}
+			} 
+		}
+	}
+
+	#manufacture {
+		padding: 0;
+
+		.content {
+			padding: 15px 0 0 0;
+
+			h2 {
+				margin: 10px 0;
+			}
+
+			.m-wrapper {
+				padding: 40px 15px;
+				height: auto;
+
+				.m-img {
+					border-radius: 0;
+					width: 100%;
+					height: 100%;
+				}
+
+				.m-slider {
+					display: block;
+					position: relative;
+					width: 100%;
+
+					.ms-item {
+						padding: 15px;
+					}
+
+					.ms-btn-group {
+						position: relative;
+						padding: 0;
+						margin-top: 15px;
+
+						#lable {
+							font-weight: 700;
+							color: $back01;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#payment {
+
+		.content {
+			padding-top: 25px;
+			padding-bottom: 15px;
+			
+			h2 {
+				padding: 0;
+				margin-bottom: 15px;
+			}
+
+			.p-wrapper {
+				display: block;
+				padding: 0;
+
+				.p-item {
+					width: 100%;
+					padding: 15px;
+					margin-bottom: 15px;
+
+					.icon {
+						margin-bottom: 10px;
+					}
+
+					.title {
+						margin-bottom: 10px;
+					}
+				}
+			}
+		}
+	}
+
+	#contacts {
+		padding: 0;
+
+		.content {
+			padding: 10px;
+
+			h2 {
+				text-align: center;
+				margin-bottom: 20px;
+			}
+
+			.contact-img {
+				display: none;
+			}
+
+			.con-wrapper {
+				display: block;
+
+				.cont-phone {
+					margin: 0;
+					margin-bottom: 30px;
+				}
+
+				.email {
+					margin-bottom: 30px;
+				}
+			}
+
+			.feedback {
+				position: relative;
+				top: 0;
+				width: 100%;
+				padding: 15px;
+
+				h2 {
+					margin-bottom: 10px;
+				}
+
+				p {
+					margin-bottom: 10px;
+				}
+
+				input,
+				textarea {
+					width: 100%;
+					margin-bottom: 15px;
+					padding: 15px;
+				}
+
+				.button {
+					padding: 15px 30px;
+				}
+			}
+		}
+	}
+
+	footer {
+		.content {
+			padding-top: 100px;
+			padding-bottom: 15px;
+			display: block;
+
+			a.logo {
+				display: block;
+				text-align: center;
+				margin-right: 0;
+				margin-bottom: 10px;
+			}
+
+			.menu {
+				display: none;
+			}
+
+			p {
+				width: 100%;
+				margin: 0;
+				text-align: center;
+			}
+
+			
+		}
+	}
+}
+
