@@ -142,6 +142,15 @@ body {
 		background: url('../images/leafs/03.png') center center no-repeat;
 		background-size: cover;
 	}
+
+	&#l-10 {
+		bottom: 0px;
+		left: 145px;
+		width: 151px;
+		height: 64px;
+		background: url('../images/leafs/08.png') center center no-repeat;
+		background-size: cover;
+	}
 }
 
 
@@ -825,9 +834,10 @@ footer {
 	background: $back02;
 
 	.content {
+		position: relative;
 		display: flex;
 		align-items: center;
-		padding: 50px 0 75px 0;
+		padding: 50px 0 60px 0;
 	}
 
 	a.logo {
