@@ -112,6 +112,7 @@ body {
   max-width: 2500px;
   min-width: 360px;
   width: 100%;
+  overflow: hidden;
 }
 
 .content {
@@ -135,6 +136,83 @@ body {
 }
 .separatop.bottom {
   background: url(../images/border-sections-bottom.svg) center center no-repeat;
+  background-size: cover;
+}
+
+.leaf {
+  position: absolute;
+  display: block;
+}
+.leaf#l-01 {
+  top: -35px;
+  left: 195px;
+  width: 221px;
+  height: 109px;
+  background: url("../images/leafs/01.png") center center no-repeat;
+  background-size: cover;
+}
+.leaf#l-02 {
+  bottom: 80px;
+  left: -168px;
+  width: 168px;
+  height: 149px;
+  background: url("../images/leafs/02.png") center center no-repeat;
+  background-size: cover;
+}
+.leaf#l-03 {
+  bottom: -365px;
+  right: -357px;
+  width: 357px;
+  height: 301px;
+  background: url("../images/leafs/03.png") center center no-repeat;
+  background-size: cover;
+}
+.leaf#l-04 {
+  top: -35px;
+  left: -194px;
+  width: 194px;
+  height: 193px;
+  background: url("../images/leafs/04.png") center center no-repeat;
+  background-size: cover;
+}
+.leaf#l-05 {
+  top: 300px;
+  right: -168px;
+  width: 168px;
+  height: 149px;
+  background: url("../images/leafs/05.png") center center no-repeat;
+  background-size: cover;
+}
+.leaf#l-06 {
+  bottom: -215px;
+  left: -290px;
+  width: 356px;
+  height: 301px;
+  background: url("../images/leafs/06.png") center center no-repeat;
+  background-size: cover;
+}
+.leaf#l-07 {
+  bottom: 0px;
+  right: -220px;
+  width: 205px;
+  height: 184px;
+  background: url("../images/leafs/07.png") center center no-repeat;
+  background-size: cover;
+}
+.leaf#l-08 {
+  top: -130px;
+  left: -168px;
+  width: 168px;
+  height: 149px;
+  background: url("../images/leafs/02.png") center center no-repeat;
+  background-size: cover;
+}
+.leaf#l-09 {
+  bottom: -320px;
+  right: -260px;
+  width: 357px;
+  height: 301px;
+  background: url("../images/leafs/03.png") center center no-repeat;
   background-size: cover;
 }
 
@@ -222,30 +300,6 @@ h2 {
   cursor: pointer;
   -webkit-transition-duration: 0.2s;
           transition-duration: 0.2s;
-  /*	&.active {
-  		display: block;
-  
-  		.line {
-  			position: absolute;
-  			top: 50%;
-  			left: 50%;
-  			transform: translate(-50%, -50%);
-  		}
-  
-  
-  		.line:nth-child(1) {
-  			transform: rotate(140deg);
-  		}
-  
-  		.line:nth-child(2) {
-  			transform: rotate(-140deg);
-  		}
-  
-  		.line:nth-child(3) {
-  			transform: rotate(180deg);
-  			opacity: 0;
-  		}
-  	}*/
 }
 #btn-menu .line {
   width: 30px;
@@ -343,6 +397,7 @@ header .contacts p:first-child {
   background: #f5f5f5;
 }
 #banner .content {
+  position: relative;
   padding: 60px 0 100px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -382,6 +437,7 @@ header .contacts p:first-child {
 
 #worth {
   background: #f5f5f5;
+  margin-bottom: -2px;
 }
 #worth .content {
   padding-bottom: 70px;
@@ -540,6 +596,7 @@ header .contacts p:first-child {
   padding-bottom: 50px;
 }
 #manufacture .content {
+  position: relative;
   padding-top: 50px;
 }
 #manufacture h2 {
@@ -620,7 +677,12 @@ header .contacts p:first-child {
 }
 
 #payment {
+  margin-top: -2px;
+  margin-bottom: -2px;
   background: #f5f5f5;
+}
+#payment .content {
+  position: relative;
 }
 #payment h2 {
   padding: 35px 0 90px 0;
@@ -837,6 +899,7 @@ header .contacts p:first-child {
 }
 
 footer {
+  margin-top: -2px;
   background: #f5f5f5;
 }
 footer .content {
@@ -904,6 +967,10 @@ footer p {
 
   h2 {
     font-size: 30px;
+  }
+
+  .leaf {
+    display: none;
   }
 
   header .content {
