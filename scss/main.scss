@@ -27,7 +27,7 @@ body {
 }
 
 .wrapper {
-	max-width: 2500px;
+	max-width: 2570px;
 	min-width: 360px;
 	width: 100%;
 	overflow: hidden;
@@ -153,7 +153,6 @@ body {
 	}
 }
 
-
 h1 {
 	font-family: "China", "Arial", sans-serif;
 	font-weight: 400;
@@ -272,6 +271,7 @@ header {
 
 	nav.menu {
 		display: block;
+		z-index: 999;
 		width: 100%;
 		padding-left: 90px;
 

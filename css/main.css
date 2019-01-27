@@ -109,7 +109,7 @@ body {
 }
 
 .wrapper {
-  max-width: 2500px;
+  max-width: 2570px;
   min-width: 360px;
   width: 100%;
   overflow: hidden;
@@ -360,6 +360,7 @@ header a.logo span {
 }
 header nav.menu {
   display: block;
+  z-index: 999;
   width: 100%;
   padding-left: 90px;
 }
@@ -1124,6 +1125,9 @@ footer p {
     color: #ffffff;
   }
 
+  #payment {
+    margin-top: 0;
+  }
   #payment .content {
     padding-top: 25px;
     padding-bottom: 15px;
