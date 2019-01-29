@@ -85,19 +85,22 @@ html {
   font-family: "Comfortaa";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/Comfortaa-Regular.ttf") format("truetype");
+  font-display: auto;
+  src: local("Comfortaa"), url("../fonts/Comfortaa-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Comfortaa";
   font-style: normal;
   font-weight: 900;
-  src: url("../fonts/Comfortaa-Bold.ttf") format("truetype");
+  font-display: auto;
+  src: local("Comfortaa"), url("../fonts/Comfortaa-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "China";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/China.ttf") format("truetype");
+  font-display: auto;
+  src: local("China"), url("../fonts/China.ttf") format("truetype");
 }
 body {
   background: #ffffff;
@@ -622,7 +625,7 @@ header .contacts p:first-child {
   bottom: 0;
   right: 0;
   width: 770px;
-  background: url(../images/manufacture.png) center center no-repeat;
+  background: url(../images/manufacture.jpg) center center no-repeat;
   background-size: cover;
   border-radius: 5px;
   overflow: hidden;
