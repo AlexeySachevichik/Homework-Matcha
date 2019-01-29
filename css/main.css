@@ -85,22 +85,19 @@ html {
   font-family: "Comfortaa";
   font-style: normal;
   font-weight: 400;
-  font-display: auto;
-  src: local("Comfortaa"), url("../fonts/Comfortaa-Regular.ttf") format("truetype");
+  src: url("../fonts/Comfortaa-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Comfortaa";
   font-style: normal;
   font-weight: 900;
-  font-display: auto;
-  src: local("Comfortaa"), url("../fonts/Comfortaa-Bold.ttf") format("truetype");
+  src: url("../fonts/Comfortaa-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "China";
   font-style: normal;
   font-weight: 400;
-  font-display: auto;
-  src: local("China"), url("../fonts/China.ttf") format("truetype");
+  src: url("../fonts/China.ttf") format("truetype");
 }
 body {
   background: #ffffff;
